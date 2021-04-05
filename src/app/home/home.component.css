@@ -1,0 +1,58 @@
+.image{
+    background: transparent url("../../assets/ssangyong.PNG") 0% 0% no-repeat padding-box;
+    background-size: cover;
+    height:500px;
+    width: 1000px;
+    padding: 4.5rem;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.card{
+    width:300px;
+    height: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: aliceblue;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 700px;
+}
+
+.label{
+    text-align: left;
+    font-style: normal;
+    line-height: 0.1em;
+}
+
+.image_title{
+    background: transparent url("../../assets/Imagen3.png") 0% 0% no-repeat padding-box;  
+}
+.image_foot{
+    position: absolute;
+    margin-top: 420px;
+}
+
+.component
+{
+    width: 200px;
+    height: 25px;
+}
+
+.component2
+{
+    width: 100px;
+    height: 25px;
+}
+.form{
+    text-align: left;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.boton{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+}

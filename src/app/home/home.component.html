@@ -1,0 +1,63 @@
+<div class="image">
+    <div>
+        <img src="../../assets/Imagen3.png">
+    </div>
+    <table>
+        <tr>
+            <th>
+                <div class="image_foot">
+                    <img src="../../assets/Imagen2.png"/>
+                </div>
+            </th>
+            <th>
+                <div class="card form">
+                    <h1 class="label">¡Cotiza la tuya!</h1>
+                    <h4 class="label">Selecciona un modelo</h4>
+                    <div>
+                        <select id="modelo" class="component">
+                            <option *ngFor="let modelo of modelos" [ngValue]="modelo">{{modelo.subitems.subtitle}}</option>
+                        </select>
+                    </div>
+                    <h4 class="label">Nombre Completo</h4>
+                    <div>
+                        <input id="nombre_completo" type="text" class="component">
+                    </div>
+                    <h4 class="label">Email</h4>                    
+                    <div>
+                        <input id="email" type="email" class="component">
+                    </div>
+                    <h4 class="label">Número Celular</h4>
+                    <div>
+                        <input id="celular" class="component">
+                    </div>
+                    <div>
+                        <table>
+                            <tr>
+                                <th>
+                                    <label class="label">Departamento</label>
+                                </th>
+                                <th>
+                                    <label class="label">Ciudad</label>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <select id="departamento" class="component2"></select>
+                                </th>
+                                <th>
+                                    <select id="ciudad" class="component2"></select>
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="politicas">Acepto la politica de Tratamiento de Datos Personales
+                    </div>
+                    <div>
+                        <button class="boton">Enviar datos</button>
+                    </div>
+                </div>
+            </th>
+        </tr>
+    </table>
+</div>
